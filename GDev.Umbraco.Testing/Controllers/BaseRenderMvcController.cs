@@ -26,6 +26,7 @@ namespace GDev.Umbraco.Testing.Controllers
         protected BaseRenderMvcController(UmbracoContext context, UmbracoHelper helper)
         {
             this.Context = context;
+            this._umbraco = helper;
         }
     }
 }

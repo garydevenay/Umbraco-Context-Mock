@@ -26,6 +26,7 @@ namespace GDev.Umbraco.Testing.Controllers
         protected BaseUmbracoApiController(UmbracoContext context, UmbracoHelper helper)
         {
             this.Context = context;
+            this._umbraco = helper;
         }
     }
 }
