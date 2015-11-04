@@ -17,7 +17,7 @@ namespace GDev.Umbraco.Tests.Controllers
 {
     public class MyRenderMvcController : BaseRenderMvcController
     {
-	public MyRenderMvcController() { }
+        public MyRenderMvcController() { }
         public MyRenderMvcController(UmbracoContext context) : base(context) { }
         public MyRenderMvcController(UmbracoContext context, UmbracoHelper helper) : base(context, helper) { }
     }
@@ -66,6 +66,7 @@ namespace GDev.Umbraco.Tests.Controllers
 {
     public class MyRenderMvcController : BaseRenderMvcController
     {
+        public MyRenderMvcController() { }
         public MyRenderMvcController(UmbracoContext context) : base(context) { }
         public MyRenderMvcController(UmbracoContext context, UmbracoHelper helper) : base(context, helper) { }
 
