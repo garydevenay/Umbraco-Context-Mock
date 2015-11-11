@@ -28,6 +28,12 @@ namespace GDev.Umbraco.Tests
         }
 
         [Test]
+        public void CanInitializeHybridController()
+        {
+            Assert.DoesNotThrow(() => new MyHybridController(this._mocker.UmbracoContextMock));
+        }
+
+        [Test]
         public void CanInitializeUmbracoApiController()
         {
             Assert.DoesNotThrow(() => new MyUmbracoApiController(this._mocker.UmbracoContextMock));

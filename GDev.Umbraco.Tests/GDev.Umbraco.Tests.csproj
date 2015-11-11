@@ -282,6 +282,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\MyRenderMvcController.cs" />
+    <Compile Include="Controllers\MyHybridController.cs" />
     <Compile Include="Controllers\MySurfaceController.cs" />
     <Compile Include="Controllers\MyUmbracoApiController.cs" />
     <Compile Include="ControllerTests.cs" />
@@ -339,7 +340,9 @@
     <Content Include="default.aspx" />
     <Content Include="Global.asax" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GDev.Umbraco.Testing\GDev.Umbraco.Testing.csproj">
       <Project>{1793b4e7-3468-45a2-8b7b-735c58837e72}</Project>
