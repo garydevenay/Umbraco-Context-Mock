@@ -40,8 +40,8 @@ namespace GDev.Umbraco.Testing.Controllers
 
         protected ActionResult CurrentTemplate<T>(T model)
         {
-            var template = ControllerContext.RouteData.Values["action"].ToString();
-            if (EnsurePhsyicalViewExists(template) == false)
+            string template = ControllerContext.RouteData.Values["action"].ToString();
+            if (!this._ensurePhsyicalViewExists(template))
             {
                 throw new Exception("No physical template file was found for template " + template);
             }
@@ -49,9 +49,9 @@ namespace GDev.Umbraco.Testing.Controllers
             return View(template, model);
         }
 
-        private bool EnsurePhsyicalViewExists(string template)
+        private bool _ensurePhsyicalViewExists(string template)
         {
-            var result = ViewEngines.Engines.FindView(ControllerContext, template, null);
+            ViewEngineResult result = ViewEngines.Engines.FindView(ControllerContext, template, null);
             if (result.View == null)
             {
                 LogHelper.Warn<RenderMvcController>("No physical template file was found for template " + template);
