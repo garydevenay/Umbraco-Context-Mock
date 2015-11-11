@@ -278,6 +278,7 @@
   <ItemGroup>
     <Compile Include="ContextMocker.cs" />
     <Compile Include="Controllers\BaseRenderMvcController.cs" />
+    <Compile Include="Controllers\BaseHybridController.cs" />
     <Compile Include="Controllers\BaseSurfaceController.cs" />
     <Compile Include="Controllers\BaseUmbracoApiController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
