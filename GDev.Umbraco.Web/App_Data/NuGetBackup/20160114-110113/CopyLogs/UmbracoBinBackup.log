@@ -1,0 +1,28 @@
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Robust File Copy for Windows                              
+-------------------------------------------------------------------------------
+
+  Started : 14 January 2016 11:01:14
+   Source : D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Web\bin\
+     Dest : D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Web\App_Data\NuGetBackup\20160114-110113\bin\
+
+    Files : *.*
+	    
+  Options : *.* /S /E /DCOPY:DA /COPY:DAT /R:1000000 /W:30 
+
+------------------------------------------------------------------------------
+
+	                   0	D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Web\bin\
+	  New Dir          0	D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Web\bin\Debug\
+	  New Dir          0	D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Web\bin\Release\
+
+------------------------------------------------------------------------------
+
+               Total    Copied   Skipped  Mismatch    FAILED    Extras
+    Dirs :         3         2         1         0         0         0
+   Files :         0         0         0         0         0         0
+   Bytes :         0         0         0         0         0         0
+   Times :   0:00:00   0:00:00                       0:00:00   0:00:00
+   Ended : 14 January 2016 11:01:14
+

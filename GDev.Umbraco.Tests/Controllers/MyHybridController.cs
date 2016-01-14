@@ -1,4 +1,4 @@
-﻿using GDev.Umbraco.Testing.Controllers;
+﻿using GDev.Umbraco.Web.Controllers;
 using Umbraco.Web;
 
 namespace GDev.Umbraco.Tests.Controllers

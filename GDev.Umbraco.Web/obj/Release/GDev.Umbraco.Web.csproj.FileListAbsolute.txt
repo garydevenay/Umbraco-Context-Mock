@@ -1,0 +1,2 @@
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Web\obj\Release\GDev.Umbraco.Web.csprojResolveAssemblyReference.cache
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Web\obj\Release\GDev.Umbraco.Web.csproj.App.config

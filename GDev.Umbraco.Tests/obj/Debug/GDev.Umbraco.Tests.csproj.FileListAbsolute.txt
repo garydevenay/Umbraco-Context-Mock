@@ -1,5 +1,3 @@
-D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\obj\Debug\GDev.Umbraco.Tests.csproj.App.config
-D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\obj\Debug\GDev.Umbraco.Tests.csprojResolveAssemblyReference.cache
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Tests.dll.config
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Tests.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Tests.pdb
@@ -12,7 +10,8 @@ D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\cms.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\controls.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\CookComputing.XmlRpcV2.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Examine.dll
-D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Testing.dll
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Test.dll
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Web.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\HtmlAgilityPack.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\ICSharpCode.SharpZipLib.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\ImageProcessor.dll
@@ -31,6 +30,7 @@ D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Microsoft.Owin.Se
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Microsoft.Web.Helpers.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\MiniProfiler.dll
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Moq.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\MySql.Data.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Newtonsoft.Json.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\nunit.framework.dll
@@ -62,8 +62,8 @@ D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\UmbracoExamine.dl
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\UrlRewritingNet.UrlRewriter.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\WebMatrix.Data.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\WebMatrix.WebData.dll
-D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Moq.dll
-D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Testing.pdb
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Test.pdb
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\GDev.Umbraco.Web.pdb
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\AutoMapper.xml
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\businesslogic.xml
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\ClientDependency.Core.pdb
@@ -84,6 +84,7 @@ D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Microsoft.Owin.Se
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\MiniProfiler.pdb
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\MiniProfiler.xml
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Moq.xml
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\nunit.framework.xml
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\SQLCE4Umbraco.xml
@@ -108,6 +109,7 @@ D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Umbraco.Web.UI.xm
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\UmbracoExamine.xml
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\WebMatrix.Data.xml
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\WebMatrix.WebData.xml
-D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\bin\Debug\Moq.xml
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\obj\Debug\GDev.Umbraco.Tests.csproj.App.config
+D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\obj\Debug\GDev.Umbraco.Tests.csprojResolveAssemblyReference.cache
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\obj\Debug\GDev.Umbraco.Tests.dll
 D:\Webs\GDev.Umbraco\GDev.Umbraco\GDev.Umbraco.Tests\obj\Debug\GDev.Umbraco.Tests.pdb

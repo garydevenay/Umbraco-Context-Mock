@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDev.Umbraco.Testing", "GDev.Umbraco.Testing\GDev.Umbraco.Testing.csproj", "{1793B4E7-3468-45A2-8B7B-735C58837E72}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDev.Umbraco.Test", "GDev.Umbraco.Test\GDev.Umbraco.Test.csproj", "{1793B4E7-3468-45A2-8B7B-735C58837E72}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDev.Umbraco.Tests", "GDev.Umbraco.Tests\GDev.Umbraco.Tests.csproj", "{638C0CC6-8633-4DE1-BB14-E83CAAF8D63C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GDev.Umbraco.Web", "GDev.Umbraco.Web\GDev.Umbraco.Web.csproj", "{3D32E530-C8D7-4887-901E-532490463DB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{638C0CC6-8633-4DE1-BB14-E83CAAF8D63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{638C0CC6-8633-4DE1-BB14-E83CAAF8D63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{638C0CC6-8633-4DE1-BB14-E83CAAF8D63C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D32E530-C8D7-4887-901E-532490463DB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D32E530-C8D7-4887-901E-532490463DB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D32E530-C8D7-4887-901E-532490463DB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D32E530-C8D7-4887-901E-532490463DB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

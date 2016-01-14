@@ -1,5 +1,5 @@
 ﻿using System.Web.Http;
-using GDev.Umbraco.Testing.Controllers;
+using GDev.Umbraco.Web.Controllers;
 using Umbraco.Web;
 using Umbraco.Core.Models;
 
