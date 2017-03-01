@@ -5,9 +5,11 @@ Umbraco Context Mock is a small package to help developers quickly access mocked
 
 ### Install via NuGet
 Into your unit testing project, we will want to install the testing package.
+
 `PM> Install-Package GDev.Umbraco.Testing`
 
 Into your web project (that contains Umbraco) we will want to install the web package
+
 `PM> Install-Package GDev.Umbraco.Testing.Web`
 
 ## Implementation
