@@ -36,7 +36,7 @@ Using this approach, you are able to inject your stub context object into your c
 ```C#
 using GDev.Umbraco.Test;
 using NUnit.Framework;
-using GDev.Umbraco.Web.Controllers;
+using GDev.Umbraco.Tests.Controllers;
 
 namespace GDev.Umbraco.Tests
 {
