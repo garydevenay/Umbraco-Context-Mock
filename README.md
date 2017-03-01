@@ -4,13 +4,17 @@ Umbraco Context Mock is a small package to help developers quickly access mocked
 **This package should be compatible with any unit testing solutions, though I have only tested with NUnit**
 
 ### Install via NuGet
+Into your unit testing project, we will want to install the testing package.
 `PM> Install-Package GDev.Umbraco.Testing`
+
+Into your web project (that contains Umbraco) we will want to install the web package
+`PM> Install-Package GDev.Umbraco.Testing.Web`
 
 ## Implementation
 Umbraco Context Mock contains three base controller classes (**BaseSurfaceController**, **BaseUmbracoApiController** and **BaseRenderMvcController**) to be inherited by your controller classes. Each base controllers contains three constructors which are used for initializing the controller for specific purposes.
 
 ```C#
-using GDev.Umbraco.Testing.Controllers;
+using GDev.Umbraco.Web.Controllers;
 using Umbraco.Web;
 
 namespace GDev.Umbraco.Tests.Controllers
@@ -28,9 +32,9 @@ namespace GDev.Umbraco.Tests.Controllers
 Using this approach, you are able to inject your stub context object into your controller when tests are run and test your controller actions as your would in a normal MVC application.
 
 ```C#
-using GDev.Umbraco.Testing;
+using GDev.Umbraco.Test;
 using NUnit.Framework;
-using GDev.Umbraco.Tests.Controllers;
+using GDev.Umbraco.Web.Controllers;
 
 namespace GDev.Umbraco.Tests
 {
@@ -59,7 +63,7 @@ As we require our UmbracoHelper and UmbracoContext to behave consistently betwee
 
 ```C#
 using System.Web.Mvc;
-using GDev.Umbraco.Testing.Controllers;
+using GDev.Umbraco.Web.Controllers;
 using Umbraco.Web;
 
 namespace GDev.Umbraco.Tests.Controllers
@@ -87,7 +91,7 @@ namespace GDev.Umbraco.Tests.Controllers
 When injecting your own services into your Umbraco controllers using Dependency Injection you must remember to implement all three constructors, adding your service logic to each.
 
 ```C#
-using GDev.Umbraco.Testing.Controllers;
+using GDev.Umbraco.Web.Controllers;
 using log4net;
 using Umbraco.Web;
 
