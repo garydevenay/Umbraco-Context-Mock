@@ -38,5 +38,14 @@ namespace GDev.Umbraco.Tests
         {
             Assert.DoesNotThrow(() => new MyUmbracoApiController(this._mocker.UmbracoContextMock));
         }
+
+        [Test]
+        public void ApiControllerCanReturnValue()
+        {
+            var controller = new MyUmbracoApiController(this._mocker.UmbracoContextMock);
+            var result = controller.SayHello("Gary");
+
+            Assert.That(result == "Hello Gary");
+        }
     }
 }
